@@ -130,14 +130,18 @@ input[type="checkbox"]+label {
   border-radius: 10px;
 }
 
-option[disabled="disabled"] {
+option[disabled="disabled"],
+.style5 option[disabled="disabled"],
+.wrapper.style5 select {
   color: #fff;
 }
 
-@media screen and (min-width: 1280px) {
-  option[disabled="disabled"] {
-    color: #ccc;
-  }
+.wrapper.style5 input[type="text"],
+.wrapper.style5 input[type="password"],
+.wrapper.style5 input[type="email"],
+.wrapper.style5 select,
+.wrapper.style5 textarea {
+  color: #fff;
 }
 
 #footer.row {
@@ -177,6 +181,7 @@ option[disabled="disabled"] {
   font-family: FontAwesome;
   font-size: 22px;
   position: absolute;
+  color: #fff;
   right: .3em;
   bottom: .4em;
 }
