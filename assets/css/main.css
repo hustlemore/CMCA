@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
 	Spectral by HTML5 UP
@@ -2577,17 +2577,19 @@
 
 	.wrapper {
 		padding: 6em 0 4em 0 ;
+		
 	}
 
 		.wrapper > .inner {
 			width: 60em;
-			margin: 0 auto;
+			margin: 0px auto;
 		}
 
 			@media screen and (max-width: 1280px) {
 
 				.wrapper > .inner {
 					width: 90%;
+
 				}
 
 			}
@@ -2596,12 +2598,13 @@
 
 				.wrapper > .inner {
 					width: 100%;
+
 				}
 
 			}
 
 		.wrapper.alt {
-			padding: 0;
+			padding: 0px;
 		}
 
 		.wrapper.style1 {
@@ -3349,6 +3352,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+                padding: 0.35em 1em 15em 1em;
 	}
 
 		#banner h2 {
@@ -3581,9 +3585,9 @@
 		}
 
 /* Main */
-
+/* HM UPDATE */
 	#main > header {
-		padding: 12em 0 10em 0 ;
+		padding: 12em 0 40em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -3592,7 +3596,7 @@
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		text-align: center;
+		text-align: left;
 	}
 
 		#main > header h2 {
