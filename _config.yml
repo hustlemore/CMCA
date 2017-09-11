@@ -18,7 +18,6 @@ instagramUrl: http://www.google.com
 googleMapsApiKey: AIzaSyCCGAjXuCpxKwqWc6kgkmCAv-ge2QnrQ1o
 # Google services
 google_analytics: UA-4628695-9
-#Sitemap
-plugins: jekyll-sitemap
+
 # Build settings
 markdown: kramdown
