@@ -362,3 +362,65 @@ option[disabled="disabled"],
   font-size: 13pt;
   padding: 0 .5em;
 }
+
+/* Conditions checkboxes */
+
+#primaryconditions {
+  margin-bottom: .7em;
+}
+
+#primaryconditions label {
+  font-size: .7em;
+  padding-left: .7em;
+}
+
+#primaryconditions label:hover {
+  color: #ed4933;
+}
+
+label[for="Condition"] sup {
+  color: #ed4933;
+  font-size: .6em;
+  top: 0;
+}
+
+#primaryconditions sup {
+  color: #8c8d8e;
+  top: 0;
+}
+
+@media (max-width: 1024px) {
+  label[for="Condition"] sup {
+    display: none;
+  }
+  #primaryconditions sup {
+    display: block;
+  }
+}
+
+#primaryconditions sup:hover {
+  color: #8c8d8e;
+}
+
+/* Conditions rollover */
+
+.rollover-container {
+  position: relative;
+}
+
+.rollover {
+  background: #111;
+  color: #fff;
+  font-size: .6em;
+  line-height: 1.6;
+  padding: 2em;
+  max-width: 55%;
+  position: absolute;
+  z-index: 1;
+  left: 12em;
+  top: .8em
+}
+
+.display-toggle {
+  display: none;
+}

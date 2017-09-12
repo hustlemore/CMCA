@@ -193,13 +193,31 @@
   </div>
 </div> -->
 
-<div id="conditions" class='form-field'>
-    <label>What conditions do you or someone you know suffer from?</label>
-    <select name="conditions" id="Condition" class="chosen-select" data-placeholder="Choose conditions" multiple required>
-      <option value="Post Traumatic Stress Symptoms">Post Traumatic Stress Symptoms</option>
-      <option value="Post-Concussion Syndrome">Post-Concussion Syndrome</option>
-      <option value="Spinal Cord Injury">Spinal Cord Injury</option>
-      <option value="Fibromyalgia">Fibromyalgia</option>
+<fieldset id="conditions" class='form-field'>
+    <label for="Condition">What conditions do you or someone you know suffer from? <sup>(Rollover symptoms to learn more information)</sup></label>
+    <div id="primaryconditions">
+        <div class="rollover-container">
+            <input type="checkbox" id="fibromyalgia" name="conditions" value="Fibromyalgia">
+            <label for="fibromyalgia">Fibromyalgia <sup>(fatigue, numbness, or general pain)</sup></label>
+            <div class="rollover display-toggle">If you suffer from fatigue, numbness, burning sensations or from chronic, general pain, it is possible you will qualify for medical cannabis after being diagnosed with fibromyalgia.</div>
+        </div>
+        <div class="rollover-container">
+            <input type="checkbox" id="sci" name="conditions" value="Spinal Cord Injury">
+            <label for="sci">Spinal Cord Injury <sup>(back issues, herniated disc, or bulging disc)</sup></label>
+            <div class="rollover display-toggle">If you suffer from fatigue, numbness, burning sensations or from chronic, general pain, it is possible you will qualify for medical cannabis after being diagnosed with fibromyalgia.</div>
+        </div>
+        <div class="rollover-container">
+            <input type="checkbox" id="pcs" name="conditions" value="Post Concussive Syndrome">
+            <label for="pcs">Post Concussive Syndrome <sup>(nausea, dizzyness, or headaches)</sup></label>
+            <div class="rollover display-toggle">If you suffer from fatigue, numbness, burning sensations or from chronic, general pain, it is possible you will qualify for medical cannabis after being diagnosed with fibromyalgia.</div>
+        </div>
+        <div class="rollover-container">
+            <input type="checkbox" id="ptsd" name="conditions" value="PTSD">
+            <label for="ptss">PTSD <sup>(anxiety, sleeplessness, or depression)</sup></label>
+            <div class="rollover display-toggle">If you suffer from fatigue, numbness, burning sensations or from chronic, general pain, it is possible you will qualify for medical cannabis after being diagnosed with fibromyalgia.</div>
+        </div>
+    </div>
+    <select id="Condition" name="conditions" class="chosen-select" data-placeholder="Other conditions" multiple>
       <option value="Cancer">Cancer</option>
       <option value="AIDS">AIDS</option>
       <option value="Agitation Of Alzheimers Disease">Agitation Of Alzheimer’s Disease</option>
@@ -239,7 +257,7 @@
       <option value="Traumatic Brain Injury">Traumatic Brain Injury (TBI)</option>
       <option value="Other">Other (Please explain below)</option>
     </select>
-</div>
+</fieldset>
 
 <div class='form-field'>
     <label>What Zipcode do you live in?</label>
