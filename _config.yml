@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Chicago Cannabis Alliance & Chicago Medical Cannabis Association
+title: Chicago Cannabis Alliance
 email: info@chicagocannabis.org
 description: HELPING CHICAGO PATIENTS ACCESS THE CANNABIS MEDICINE THEY NEED
 url: http://chicagocannabis.org # the base hostname & protocol for your site
@@ -19,6 +19,7 @@ googleMapsApiKey: AIzaSyCCGAjXuCpxKwqWc6kgkmCAv-ge2QnrQ1o
 # Google services
 google_analytics: UA-4628695-9
 # Sitemap
-plugins:- jekyll-sitemap
+plugins:
+  - jekyll-sitemap
 # Build settings
 markdown: kramdown

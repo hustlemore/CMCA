@@ -31,7 +31,29 @@
                 $(e.target).parent().addClass('valid-icon');
             }
         }
+
+        var checkboxes = $("#primaryconditions input:checkbox:checked").length;
+        var selectdropdown = $('#Condition').val();
+
+        if( checkboxes || selectdropdown ) {
+            $('#Condition_chosen').removeClass('invalid-icon');
+            $('#Condition_chosen').addClass('valid-icon');
+        } else {
+            $('#Condition_chosen').removeClass('valid-icon');
+            $('#Condition_chosen').addClass('invalid-icon');
+        }
+
     });
 
+    // Conditions hover
+    if($(window).width() >= 1024) {
+      $('.rollover-container').hover(
+        function() {
+          $(this).children('.rollover').removeClass('display-toggle');
+        }, function() {
+          $(this).children('.rollover').addClass('display-toggle');
+        }
+      );
+    }
 
 }());
