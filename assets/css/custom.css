@@ -6,7 +6,7 @@
   left:0;
   right:0;
   z-index:-1;
-  background: url(/CMCA/images/bg_option_10.jpg) center center;
+  background: url(../../images/bg_option_10.jpg) center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -369,12 +369,7 @@ option[disabled="disabled"],
   margin-bottom: .7em;
 }
 
-#primaryconditions label {
-  font-size: .7em;
-  padding-left: .7em;
-}
-
-#primaryconditions label:hover {
+#primaryconditions .cca-checkboxtext:hover {
   color: #ed4933;
 }
 
@@ -384,16 +379,11 @@ label[for="Condition"] sup {
   top: 0;
 }
 
-#primaryconditions sup {
-  color: #8c8d8e;
-  top: 0;
-}
-
 @media (max-width: 1024px) {
   label[for="Condition"] sup {
     display: none;
   }
-  #primaryconditions sup {
+  .cca-checkboxtext sup {
     display: block;
   }
 }
@@ -424,3 +414,89 @@ label[for="Condition"] sup {
 .display-toggle {
   display: none;
 }
+
+/* Checkboxes */
+
+.cca-checkbox {
+  position: relative;
+  margin: .4em 0;
+}
+
+.cca-checkbox label {
+  cursor: pointer;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  background: #111;
+  border:2px solid #fff;
+}
+
+.cca-checkbox label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 8px;
+  background: transparent;
+  top: 4px;
+  left: 3px;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-45deg);
+}
+
+.cca-checkbox input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+.cca-checkbox input[type=checkbox] {
+  display: none;
+}
+
+.cca-checkbox input[type=checkbox] + label {
+  margin: .25em 0 0 0;
+} 
+
+.cca-checkboxtext {
+  display: inline-block;
+  margin-left: 2.7em;
+  font-size: .7em;
+}
+
+.cca-checkboxtext sup {
+  color: #8c8d8e;
+  top: 0;
+}
+
+.style5 .cca-checkbox label {
+  background: #fff;
+  border: 2px solid #111;
+}
+
+.style5 .cca-checkbox label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 8px;
+  background: transparent;
+  top: 4px;
+  left: 3px;
+  border: 2px solid #000;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 1280px) {
+  .cca-checkbox input[type=checkbox] + label {
+    margin: 0;
+  }
+  .cca-checkboxtext {
+    margin-left: 3.5em;
+    line-height: 1.5;
+  }
+} 
