@@ -499,4 +499,9 @@ label[for="Condition"] sup {
     margin-left: 3.5em;
     line-height: 1.5;
   }
-} 
+}
+
+.cresco-logo {
+  display: block;
+  margin: 5px auto;
+}
