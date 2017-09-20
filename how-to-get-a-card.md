@@ -6,7 +6,7 @@ permalink: /how-to-get-a-card/
 youtubeID: Y8e7WC6RN0I
 ---
 
-## Please fill out the information below and someone will contact you within 24 hours
+<!-- ## Please fill out the information below and someone will contact you within 24 hours
 HEEYYY GIRL
 
 
@@ -257,7 +257,7 @@ We Will Help You Get Relief.
 </div>
 </form>
 
-
+-->
 The Chicago Cannabis Alliance and Chicago Medical Cannabis Association perform outreach and advocacy for patients throughout Chicago. We strive to:
 
 - Inform doctors of the efficacy and benefits of medical cannabis
