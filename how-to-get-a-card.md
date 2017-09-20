@@ -257,7 +257,7 @@ We Will Help You Get Relief.
 </div>
 </form>
 
--->
+
 The Chicago Cannabis Alliance and Chicago Medical Cannabis Association perform outreach and advocacy for patients throughout Chicago. We strive to:
 
 - Inform doctors of the efficacy and benefits of medical cannabis
@@ -266,3 +266,5 @@ The Chicago Cannabis Alliance and Chicago Medical Cannabis Association perform o
 - Connect patients with appropriate dispensaries
 - Be a clearinghouse of information
 - Provide information to state elected and regulatory officials.
+
+-->
