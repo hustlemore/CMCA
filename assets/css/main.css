@@ -1787,22 +1787,22 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #fff !important;
+		color: #fff;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #fff !important;
+		color: #fff;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #fff !important;
+		color: #fff;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #fff !important;
+		color: #fff;
 		opacity: 1.0;
 	}
 

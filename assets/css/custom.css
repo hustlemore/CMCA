@@ -513,6 +513,31 @@ label[for="Condition"] sup {
   padding: 1em;
   border-radius: 10px;
   margin: 0 0 2em 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+#success h1,
+#success h2,
+#success h3,
+#success h4,
+#success h5,
+#success h6 {
+  color: #333;
+}
+
+.style5 #success {
+  background-color: #1d242a;
+  color: #fafafa;
+}
+
+.style5 #success h1,
+.style5 #success h2,
+.style5 #success h3,
+.style5 #success h4,
+.style5 #success h5,
+.style5 #success h6 {
+  color: #fafafa;
 }
 
 #success p,
@@ -572,6 +597,7 @@ label[for="Condition"] sup {
   padding-left: 1em;
   padding-right: 3.2em;
   text-transform: none;
+  color: #fff;
 }
 
 #success .fa {
