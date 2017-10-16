@@ -20,7 +20,7 @@ For more information, please use the form below to contact us.
 
 ## Contact Us
 
-<form action="https://formspree.io/info@chicagocannabis.org" method="POST">
+<form action="https://formspree.io/mmj@innovativeexpresscare.com" method="POST">
     <input type="text" name="_name" placeholder="Name">
     <input type="email" name="_replyto" placeholder="Email Address">
     <input type="text" name="_comments" placeholder="Comments. Please.">
