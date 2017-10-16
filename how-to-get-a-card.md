@@ -5,8 +5,8 @@ description: We Can Help You or Someone You Know
 permalink: /how-to-get-a-card/
 youtubeID: Y8e7WC6RN0I
 ---
-<!-- 
-## Please fill out the information below and someone will contact you within 24 hours
+
+<!-- ## Please fill out the information below and someone will contact you within 24 hours
 HEEYYY GIRL
 
 
@@ -266,4 +266,5 @@ The Chicago Cannabis Alliance and Chicago Medical Cannabis Association perform o
 - Connect patients with appropriate dispensaries
 - Be a clearinghouse of information
 - Provide information to state elected and regulatory officials.
- -->
+
+-->
